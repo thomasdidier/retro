@@ -202,8 +202,9 @@ float:right;
   border-radius:30px;
   font-size:90%;
   background-color:#b2bec3;
+  text-decoration:none;
 
-    i{
+    a{
       color:#000;
     }
 }
@@ -211,10 +212,10 @@ float:right;
  .icon2:hover{
   border: 1px solid ;
   border-radius:30px;
-  background-color:#2d3436;
-  transition-duration: 1s;
+  background-color:#fff;
+  transition-duration: 3s;
 
-    i{
+    a{
       color:#fff;
 }
 
@@ -228,9 +229,10 @@ margin-right:25px;
   font-size:90%;
   background-color:#b2bec3;
   margin-top:49px;
+  text-decoration:none;
+    a{
+      color:#fff;
 
-    i{
-      color:#000;
     }
 }
 
@@ -273,7 +275,7 @@ background-size: 80px 140px;
 
 .post-list-heading {
   @include relative-font-size(2);
-
+  border-bottom: 1px solid #000;
 }
 
 .post-list {
@@ -308,6 +310,7 @@ background-size: 80px 140px;
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
+  
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);

@@ -11,11 +11,11 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <img class="mario" src="http://cdn.atomix.vg/wp-content/uploads/2014/04/Super-Mario-Bros-3.png">
+    <h2 class="post-list-heading animated fadeInUp">{{ page.list_title | default: "Posts" }}</h2>
+    <img class="mario animated zoomInUp" src="http://cdn.atomix.vg/wp-content/uploads/2014/04/Super-Mario-Bros-3.png">
     <ul class="post-list">
       {%- for post in site.posts -%}
-      <li>
+      <li class="animated fadeInUp">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
@@ -30,7 +30,7 @@ layout: default
       {%- endfor -%}
     </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    <p class="rss-subscribe animated fadeInUp">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
 </div>

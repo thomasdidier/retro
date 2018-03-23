@@ -100,7 +100,10 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
-a {
+ 
+.rss-subscribe a,
+.footer-col-wrapper a,
+.post-list a {
   color: $brand-color;
   text-decoration: none;
 
