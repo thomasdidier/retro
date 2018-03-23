@@ -9,4 +9,4 @@ Les consoles sont zonées (Asie, Europe, Amérique) mais les différences concr�
 
 En 1997 et 1998, Nintendo décide de rafraîchir le design en sortant le modèle SNS-101, parfois appelé Super NES 2 aux États-Unis, et la Super Famicom Jr. au Japon.
 
-[![rs64905_snes.png](/uploads/rs64905_snes.png)](http://cooldown.fr/wp-content/uploads/2017/04/rs64905_snes.png)
+<img src="http://cooldown.fr/wp-content/uploads/2017/04/rs64905_snes.png">
