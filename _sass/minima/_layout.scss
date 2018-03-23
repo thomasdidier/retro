@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+ 
+  border-bottom: 2px solid  #b2bec3;
   min-height: $spacing-unit * 1.865;
   background-image: url(../images/header1.jpg);
 
@@ -110,10 +110,11 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  border-top: 2px solid #b2bec3;
   padding-bottom:0;
   padding-top:0;
   background-color:#d1ccc0;
+  
 
 }
 
@@ -187,6 +188,50 @@
 /**
  * Page content
  */
+.icon1{
+float:right;
+  margin-right:25px;
+  margin-top:15px;
+  border: 1px solid #fff;
+  padding: 3px 5px 3px 5px;
+  border-radius:30px;
+  font-size:60%;
+  background-color:#b2bec3;
+
+    i{
+      color:#000;
+    }
+}
+.icon1:hover,
+ .icon2:hover{
+  border: 1px solid ;
+  padding: 3px 5px 3px 5px;
+  border-radius:30px;
+  font-size:60%;
+  background-color:#2d3436;
+  transition-duration: 1s;
+
+    i{
+      color:#fff;
+}
+
+}
+.icon2{
+float:right;
+margin-right:25px;
+  border: 1px solid #fff;
+  padding: 3px 5px 3px 5px;
+  border-radius:30px;
+  font-size:60%;
+  background-color:#b2bec3;
+  margin-top:30px;
+
+    i{
+      color:#000;
+    }
+}
+
+
 .mario{
   max-width:25%;
   padding-bottom:30px;
@@ -199,8 +244,25 @@
 }
 
 .page-content{
-  background-color:#f7f1e3;
+  background: rgba(247,241,227, 0.60);
 }
+.pattern {
+  min-height:200px;
+  border-bottom: 13px solid #F7F1E3;
+  border-top: 13px solid #F7F1E3;
+}
+
+#linear1 {
+background: 
+linear-gradient(30deg, #bdbdbd 12%, transparent 12.5%, transparent 87%, #bdbdbd 87.5%, #bdbdbd 0), 
+linear-gradient(150deg, #bdbdbd 12%, transparent 12.5%, transparent 87%, #bdbdbd 87.5%, #bdbdbd 0), 
+linear-gradient(30deg, #bdbdbd 12%, transparent 12.5%, transparent 87%, #bdbdbd 87.5%, #bdbdbd 0), 
+linear-gradient(150deg, #bdbdbd 12%, transparent 12.5%, transparent 87%, #bdbdbd 87.5%, #bdbdbd 0), 
+linear-gradient(60deg, #dbdbdb 25%, transparent 25.5%, transparent 75%, #dbdbdb 75%, #dbdbdb 0), 
+linear-gradient(60deg, #dbdbdb 25%, transparent 25.5%, transparent 75%, #dbdbdb 75%, #dbdbdb 0), #ccc;
+background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+background-size: 80px 140px;
+  }
 
 .page-heading {
   @include relative-font-size(2);
