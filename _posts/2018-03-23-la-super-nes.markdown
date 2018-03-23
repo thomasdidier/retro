@@ -1,6 +1,7 @@
 ---
 title: La Super-NES
 date: 2018-03-23 12:56:00 Z
+layout: post
 ---
 
 La Super Nintendo Entertainment System (couramment abrégée SNES, Super NES ou encore Super Nintendo3), ou Super Famicom (スーパーファミコン?) au Japon, est une console de jeux vidéo 16 bits du constructeur japonais Nintendo commercialisée à partir de août 1991. En Amérique du Nord, la console est sortie avec un look résolument différent. À noter qu'en Corée du Sud, la Super Nintendo est distribuée par Hyundai Electronics sous le nom de Super Comboy (슈퍼 컴보이).
